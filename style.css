@@ -44,10 +44,14 @@ body {
   width: 100%;
   position: relative;
 }
+.page1:nth-child(1) {
+  padding: 0vw;
+}
 
 /* <---------- NAV SECTION ----------------> */
 nav {
-  padding: 2vw 0vw;
+  /* background-color: purple; */
+  padding: 2vw 2vw;
   width: 100%;
   display: flex;
   align-items: center;
