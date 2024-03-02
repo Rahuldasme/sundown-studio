@@ -24,12 +24,13 @@
 
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
   width: 100%;
 }
 
 .main {
+  overflow: hidden;
   z-index: 100;
   position: relative;
   background-color: #efeae3;
@@ -617,8 +618,8 @@ button {
 }
 
 .footer {
-  overflow: hidden;
-  position: fixed;
+  /* overflow: hidden; */
+  /* position: fixed; */
   bottom: 0;
   z-index: 7;
   width: 100%;
@@ -808,7 +809,7 @@ button {
   align-items: center;
   position: fixed;
   z-index: 1000;
-  top: 0;
+  /* top: 0; */
   width: 100%;
   height: 100%;
   background-color: black;
@@ -1059,7 +1060,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: -5%;
+    /* left: -5%; */
     width: 100%;
     height: 100%;
   }
@@ -1294,8 +1295,9 @@ button {
   }
 
   .page6 {
-    padding: 0vw 5vw;
-    right: 5%;
+    /* padding: 0vw 5vw; */
+    width: 100%;
+    /* right: 5%; */
     height: 65vh;
   }
 
@@ -1328,7 +1330,7 @@ button {
     font-size: 2vh;
   }
   .footer-bottom {
-    width: 90%;
+    width: 100%;
     font-size: 0.65rem;
     height: 10%;
     bottom: 0%;
@@ -1338,7 +1340,7 @@ button {
     margin-top: 10vh;
     height: 10%;
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: end;
     bottom: 0%;
