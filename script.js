@@ -1,8 +1,8 @@
 // LOCOMOTIVE ISSUE WITH THE FOOTER AND HOVWER EFFEECT ON PAGE 3
-const scroll = new LocomotiveScroll({
-  el: document.querySelector(".main"),
-  smooth: false,
-});
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector(".main"),
+//   smooth: false,
+// });
 
 function swiper() {
   var swiper = new Swiper(".mySwiper", {
