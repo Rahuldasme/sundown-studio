@@ -609,6 +609,7 @@ button {
 
 /* <----------------PAGE 6/ FOOTER-------------------> */
 .page6 {
+  overflow: hidden;
   position: relative;
   width: 100%;
   height: 100vh;
