@@ -1,16 +1,15 @@
 const scroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
+  el: document.querySelector(".main"),
   smooth: true,
 });
 
-function swiperAnimation() {
+function swiper() {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto",
-    // centeredSlides: false,
-    spaceBetween: 100,
+    spaceBetween: 50,
   });
 }
-swiperAnimation();
+swiper();
 
 function menuAnimation() {
   var menu = document.querySelector("nav h3");
@@ -32,9 +31,20 @@ function menuAnimation() {
 menuAnimation();
 
 function loaderAnimation() {
-  var loader = document.querySelector("#loader");
+  let loading = document.querySelector(".loading-page");
+  let h1 = loading.querySelector("h2");
+  function textChange() {
+    console.log("no error");
+    setTimeout(function () {
+      h1.innerText = "CONTENT";
+    }, 1000);
+    setTimeout(function () {
+      h1.innerText = "ENVIRONMENT";
+    }, 2000);
+  }
+  textChange();
   setTimeout(function () {
-    loader.style.top = "-100%";
-  }, 4200);
+    loading.style.top = "-100%";
+  }, 3000);
 }
 loaderAnimation();
